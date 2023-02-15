@@ -168,11 +168,20 @@ p {
 
   .image1 {
     width: 90%;
-}
+  }
 
-.logoH {
-  width: 40%;
-}
+  .logoH {
+    width: 40%;
+  }
+
+  .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
+    text-align: center; font-size: 1.1pc; padding-left: 7%; padding-right: 7%; padding-top: 12%; padding-bottom: 12%;
+  }
+
+  .click1 {
+    font-size: 1.0pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
+  }
+
 }
 
 
@@ -185,6 +194,14 @@ p {
     width: 50%;
     padding-top: 5%;
   }
+
+  .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
+    text-align: center; font-size: 1.3pc; padding-left: 7%; padding-right: 7%; padding-top: 12%; padding-bottom: 12%;
+  }
+
+  .click1 {
+    font-size: 1.0pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px)  {
@@ -196,6 +213,15 @@ p {
     padding-top: 5%;
     width: 50%;
   }
+
+  .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
+    text-align: center; font-size: 1.5pc; padding-left: 7%; padding-right: 7%; padding-top: 10%; padding-bottom: 12%;
+  }
+
+  .click1 {
+    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
+  }
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px)  {
@@ -207,6 +233,16 @@ p {
     padding-top: 5%;
     width: 40%;
   }
+
+  .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
+    text-align: center; font-size: 1.5pc; padding-left: 7%; padding-right: 7%; padding-top: 7%; padding-bottom: 12%;
+  }
+
+  .click1 {
+    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
+  }
+
+
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 1025px)  {
@@ -218,8 +254,18 @@ p {
     padding-top: 3%;
     width: 35%;
   }
+
+  .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
+    text-align: center; font-size: 1.4pc; padding-left: 7%; padding-right: 7%; padding-top: 7%; padding-bottom: 12%;
+  }
+
+  .click1 {
+    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
+  }
+
 }
 
+/* BELOW FOR LARGER SCREEN */
 @media only screen and (max-width: 3500px) and (min-width: 1201px)  {
 
   .image1 {
@@ -228,5 +274,14 @@ p {
   .logoH {
     padding-top: 1%;
     width: 30%;
+  }
+
+  .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
+    text-align: center; font-size: 1.5pc; padding-left: 7%; padding-right: 7%; padding-top: 3%; padding-bottom: 6%;
+  }
+
+  .click1 {
+    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
+  }
   }
 }
