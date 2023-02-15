@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 80%;
+}
+
+body {
+    max-height: 100vh;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.logoH {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  width: 22%;
+}
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 60%;
+}
+
+.heading1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    padding-bottom: 5%;
+    width: 21%;
+}
+
+
+@keyframes move {
+  from {
+      transform: translateY(-7px);
+  }
+  to {
+      transform: translateY(7px);
+  }
+}
+
+.sketches2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0%;
+  width: 85%;
+}
+
+.imagesBoth {
+    list-style: none;
+    margin: 3%;
+    padding: 0%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.screensDesk {
+  z-index: 10;
+  list-style: none;
+  margin: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.screenABDesk {
+  z-index: 10;
+  width: 40%;
+}
+
+.screens2 {
+  z-index: 10;
+  list-style: none;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sketches {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.styles {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 85%;
+}
+
+#wineAd {
+  z-index: 5;
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.goBack a:link {
+  text-decoration: none;
+}
+
+.goBack a:visited {
+  text-decoration: none;
+}
+
+.goBack a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.goBack a:active {
+  text-decoration: underline;
+}
+
+.click1 a:link {
+  text-decoration: none;
+}
+  
+.click1 a:visited {
+  text-decoration: none;
+}
+  
+.click1 a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+  
+.click1 a:active {
+  text-decoration: underline;
+}
+
+/* Sizes */
+
+@media only screen and (max-width: 360px) and (min-width: 200px)  {
+
+  .image1 {
+    width: 90%;
+}
+
+.logoH {
+  width: 40%;
+}
+}
+
+
+@media only screen and (max-width: 480px) and (min-width: 320px)  {
+
+  .image1 {
+    width: 100%;
+  }
+  .logoH {
+    width: 50%;
+    padding-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px)  {
+
+  .image1 {
+    width: 100%;
+  }
+  .logoH {
+    padding-top: 5%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px)  {
+
+  .image1 {
+    width: 70%;
+  }
+  .logoH {
+    padding-top: 5%;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px)  {
+
+  .image1 {
+    width: 60%;
+  }
+  .logoH {
+    padding-top: 3%;
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 3500px) and (min-width: 1201px)  {
+
+  .image1 {
+    width: 50%;
+  }
+  .logoH {
+    padding-top: 1%;
+    width: 30%;
+  }
+}
