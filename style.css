@@ -69,7 +69,7 @@ p {
 
 .imagesBoth {
     list-style: none;
-    margin: 3%;
+    margin: auto;
     padding: 0%;
     padding-top: 1%;
     padding-bottom: 5%;
@@ -167,7 +167,7 @@ p {
 @media only screen and (max-width: 360px) and (min-width: 200px)  {
 
   .image1 {
-    width: 90%;
+    width: 100%;
   }
 
   .logoH {
@@ -179,7 +179,34 @@ p {
   }
 
   .click1 {
-    font-size: 1.0pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
+    font-size: 1.0pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 20%;
+  }
+
+  .imagesBoth {
+    width: 80%;
+}
+
+  .styles {
+    width: 160%;
+    margin-left: -20%;
+  }
+
+  #wineAd {
+    width: 200%;
+    margin-left: -50%;
+  }
+
+  .leftSide {
+    display: none;
+  }
+
+  .rightSide {
+    display: none;
+  }
+
+  .images4up {
+    width: 90%;
+    margin: auto;
   }
 
 }
@@ -202,6 +229,33 @@ p {
   .click1 {
     font-size: 1.0pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
   }
+
+  .imagesBoth {
+    width: 70%;
+}
+
+  .styles {
+    width: 130%;
+    margin-left: -10%;
+  }
+
+  #wineAd {
+    width: 150%;
+    margin-left: -25%;
+  }
+
+  .leftSide {
+    display: none;
+  }
+
+  .rightSide {
+    display: none;
+  }
+
+  .images4up {
+    width: 90%;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px)  {
@@ -222,6 +276,28 @@ p {
     font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
   }
 
+  .imagesBoth {
+    width: 70%;
+}
+
+#wineAd {
+  width: 120%;
+  margin-left: -10%;
+}
+
+.leftSide {
+  display: none;
+}
+
+.rightSide {
+  display: none;
+}
+
+.images4up {
+  width: 78%;
+  margin: auto;
+}
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px)  {
@@ -241,6 +317,14 @@ p {
   .click1 {
     font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
   }
+
+  .imagesBoth {
+    width: 60%;
+}
+
+.images4up {
+  display: none;
+}
 
 
 }
@@ -263,6 +347,14 @@ p {
     font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
   }
 
+  .imagesBoth {
+    width: 50%;
+}
+
+.images4up {
+  display: none;
+}
+
 }
 
 /* BELOW FOR LARGER SCREEN */
@@ -283,5 +375,12 @@ p {
   .click1 {
     font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
   }
-  }
+
+  .imagesBoth {
+    width: 40%;
 }
+
+.images4up {
+  display: none;
+}
+  }
