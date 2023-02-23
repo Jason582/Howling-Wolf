@@ -181,7 +181,7 @@ p {
   }
 
   .click1 {
-    font-size: 1.0pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 20%; padding-bottom: 10%;
+    font-size: 1.0pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%; padding-bottom: 10%;
   }
 
   .imagesBoth {
@@ -207,6 +207,7 @@ p {
   }
 
   .images4up {
+    padding-top: 9%;
     width: 90%;
     margin: auto;
   }
@@ -230,7 +231,7 @@ p {
   }
 
   .click1 {
-    font-size: 1.0pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%; padding-bottom: 10%;
+    font-size: 1.0pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 7%; padding-bottom: 6%;
   }
 
   .imagesBoth {
@@ -256,6 +257,7 @@ p {
   }
 
   .images4up {
+    padding-top: 9%;
     width: 90%;
     margin: auto;
   }
@@ -273,34 +275,35 @@ p {
   }
 
   .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
-    text-align: center; font-size: 1.5pc; padding-left: 7%; padding-right: 7%; padding-top: 10%; padding-bottom: 12%;
+    text-align: center; font-size: 1.5pc; padding-left: 12%; padding-right: 12%; padding-top: 10%; padding-bottom: 12%;
   }
 
   .click1 {
-    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%; padding-bottom: 10%;
+    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 8%; padding-bottom: 5%;
   }
 
   .imagesBoth {
     width: 70%;
-}
+  }
 
-#wineAd {
-  width: 170%;
-  margin-left: -36%;
-}
+  #wineAd {
+    width: 170%;
+    margin-left: -36%;
+  }
 
-.leftSide {
-  display: none;
-}
+  .leftSide {
+    display: none;
+  }
 
-.rightSide {
-  display: none;
-}
+  .rightSide {
+    display: none;
+  }
 
-.images4up {
-  width: 78%;
-  margin: auto;
-}
+  .images4up {
+    padding-top: 8%;
+    width: 78%;
+    margin: auto;
+  }
 
 }
 
@@ -316,20 +319,24 @@ p {
   }
 
   .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
-    text-align: center; font-size: 1.5pc; padding-left: 7%; padding-right: 7%; padding-top: 7%; padding-bottom: 12%;
+    text-align: center; font-size: 1.5pc; padding-left: 12%; padding-right: 12%; padding-top: 7%; padding-bottom: 12%;
   }
 
   .click1 {
-    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%; padding-bottom: 10%;
+    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 4%; padding-bottom: 4%;
   }
 
-  .imagesBoth {
-    width: 50%;
-}
+    .imagesBoth {
+      width: 50%;
+  }
 
-.images4up {
-  display: none;
-}
+  .screensDesk {
+    padding-top: 8%;
+  }
+
+  .images4up {
+    display: none;
+  }
 
 
 }
@@ -346,48 +353,56 @@ p {
   }
 
   .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
-    text-align: center; font-size: 1.4pc; padding-left: 7%; padding-right: 7%; padding-top: 7%; padding-bottom: 12%;
+    text-align: center; font-size: 1.4pc; padding-left: 12%; padding-right: 12%; padding-top: 7%; padding-bottom: 12%;
   }
 
   .click1 {
-    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%; padding-bottom: 10%;
+    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 4%; padding-bottom: 3%;
   }
 
-  .imagesBoth {
-    width: 40%;
-}
+    .imagesBoth {
+      width: 40%;
+  }
 
-.images4up {
-  display: none;
-}
+  .screensDesk {
+    padding-top: 8%;
+  }
+
+  .images4up {
+    display: none;
+  }
 
 }
 
 /* BELOW FOR LARGER SCREEN */
 @media only screen and (max-width: 3500px) and (min-width: 1201px)  {
 
-  .image1 {
-    width: 45%;
-  }
-  .logoH {
-    padding-top: 1%;
-    padding-bottom: 5%;
-    width: 35%;
-  }
+    .image1 {
+      width: 45%;
+    }
+    .logoH {
+      padding-top: 1%;
+      padding-bottom: 5%;
+      width: 35%;
+    }
 
-  .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
-    text-align: center; font-size: 1.5pc; padding-left: 7%; padding-right: 7%; padding-top: 3%; padding-bottom: 6%;
-  }
+    .desktopCopy1, .desktopCopy2, .desktopCopy3, .desktopCopy4 {
+      text-align: center; font-size: 1.5pc; padding-left: 20%; padding-right: 20%; padding-top: 3%; padding-bottom: 6%;
+    }
 
-  .click1 {
-    font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 12%;
-  }
+    .click1 {
+      font-size: 1.2pc; padding-left: 12%; padding-right: 12%; font-weight: 300; padding-top: 4%; padding-bottom: 3%;
+    }
 
-  .imagesBoth {
-    width: 30%;
-}
+    .imagesBoth {
+      width: 30%;
+    }
 
-.images4up {
-  display: none;
-}
+    .screensDesk {
+      padding-top: 7%;
+    }
+
+    .images4up {
+      display: none;
+    }
   }
