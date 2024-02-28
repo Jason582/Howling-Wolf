@@ -191,19 +191,13 @@ p {
     margin-left: -20%;
   }
 
-/* #wineAd2 {
-  z-index: 5;
-  position: relative;
-  display: block;
-  width: 50%;
-  padding-top: 4%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #wineAd {
   display: none;
-} */
+}
+
+#wineAd2 {
+  display: none;
+}
   
   .leftSide {
     display: none;
@@ -250,19 +244,13 @@ p {
     margin-left: -10%;
   }
 
-/* #wineAd2 {
-  z-index: 5;
-  position: relative;
-  display: block;
-  width: 50%;
-  padding-top: 4%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #wineAd {
   display: none;
-} */
+}
+
+#wineAd2 {
+  display: none;
+}
 
   .leftSide {
     display: none;
@@ -302,19 +290,13 @@ p {
     width: 70%;
   }
 
-/* #wineAd {
-  z-index: 5;
-  position: relative;
-  display: block;
-  width: 170%;
-  padding-top: 4%;
-  margin-left: auto;
-  margin-right: auto;
+#wineAd {
+  display: none;
 }
 
-  #wineAd2 {
-    display: none;
-  } */
+#wineAd2 {
+  display: none;
+}
 
   .leftSide {
     display: none;
@@ -363,9 +345,13 @@ p {
     display: none;
   }
 
-/*     #wineAd2 {
-    display: none;
-  } */
+#wineAd {
+  display: none;
+}
+
+#wineAd2 {
+  display: none;
+}
 
 }
 
@@ -400,9 +386,13 @@ p {
     display: none;
   }
 
-/*     #wineAd2 {
-    display: none;
-  } */
+#wineAd {
+  display: none;
+}
+
+#wineAd2 {
+  display: none;
+}
 
 }
 
@@ -438,7 +428,11 @@ p {
       display: none;
     }
 
-/*     #wineAd2 {
-    display: none;
-  } */
+#wineAd {
+  display: none;
+}
+
+#wineAd2 {
+  display: none;
+}
   }
