@@ -128,15 +128,6 @@ p {
   margin-right: auto;
 }
 
-#wineAd2 {
-  z-index: 5;
-  position: relative;
-  display: block;
-  width: 100%;
-  padding-top: 4%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .goBack a:link {
   text-decoration: none;
