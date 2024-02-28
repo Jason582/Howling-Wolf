@@ -118,6 +118,10 @@ p {
   width: 85%;
 }
 
+#wineAd {
+  display: none;
+}
+
 #wineAd2 {
   display: none;
 }
