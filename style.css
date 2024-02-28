@@ -118,6 +118,10 @@ p {
   width: 85%;
 }
 
+#wineAd2 {
+  display: none;
+}
+
 .goBack a:link {
   text-decoration: none;
 }
