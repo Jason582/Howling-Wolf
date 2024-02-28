@@ -126,7 +126,6 @@ p {
   padding-top: 4%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .goBack a:link {
@@ -194,10 +193,15 @@ p {
     margin-left: -20%;
   }
 
-  #wineAd {
-    width: 220%;
-/*     margin-left: -100%; */
-  }
+#wineAd {
+  z-index: 5;
+  position: relative;
+  display: block;
+  width: 220%;
+  padding-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .leftSide {
     display: none;
@@ -244,10 +248,15 @@ p {
     margin-left: -10%;
   }
 
-  #wineAd {
-    width: 190%;
-/*     margin-left: -45%; */
-  }
+#wineAd {
+  z-index: 5;
+  position: relative;
+  display: block;
+  width: 190%;
+  padding-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .leftSide {
     display: none;
@@ -287,10 +296,15 @@ p {
     width: 70%;
   }
 
-  #wineAd {
-    width: 170%;
-/*     margin-left: -36%; */
-  }
+#wineAd {
+  z-index: 5;
+  position: relative;
+  display: block;
+  width: 170%;
+  padding-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .leftSide {
     display: none;
